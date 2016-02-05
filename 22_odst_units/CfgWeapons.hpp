@@ -7,6 +7,16 @@ class ItemCore;
 	class H_HelmetB;
 	class H_Cap_oli;
 	class Binocular;
+	class HitHead;
+	class HitNeck;
+	class HitBody;
+	class HitPelvis;
+	class HitAbdomen;
+	class HitDiaphragm;
+	class HitChest;
+	class HitHands;
+	class HitArms;
+	class HitLegs;
 
 //vests to use: Carrier GL Rig (V_PlateCarrierGL_blk), Carrier Speical Rig (V_PlateCarrierSpec_blk), Carrier Rig (v_PlateCarrier2_blk), CTRG Plate Carrier Rig Mk2 (V_PlateCarrierH_CTRG), Carrier Lite (V_PlateCarrier1_blk), Chest Rig (V_Chestrig_blk), tactical vest (V_TacVest_blk), 
 
@@ -525,7 +535,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=50;
+			armor=10;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -545,15 +555,6 @@ class ItemCore;
 			{
 				"OPTRE_UNSC_Units\ODST\data\helmet_co.paa",
 				"OPTRE_UNSC_Units\ODST\data\helmet_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=8;
-					passThrough=0.5;
-				};
 			};
 		};
 	};
@@ -703,7 +704,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=50;
+			armor=10;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2108,51 +2109,13 @@ class ItemCore;
 		model="\OPTRE_UNSC_Units\ODST\vest.p3d";
 		class ItemInfo: VestItem
 		{
-			vesttype= "rebreather";
-			uniformModel="\OPTRE_UNSC_Units\ODST\vest.p3d";
-			armor=40;
-			mass=40;
-			containerClass="Supply200";
-			passThrough=0.1;
+			vesttype = "rebreather";
+			uniformModel = "\OPTRE_UNSC_Units\ODST\vest.p3d";
+			armor = 500;
+			mass = 20;
+			containerClass = "Supply200";
+			passThrough = 0.1;
 			modelSides[]={6};
-			class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=8;
-					passThrough=0.5;
-				};
-				class Arms
-				{
-					hitpointName="HitArms";
-					armor=8;
-					passThrough=0.5;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=24;
-					passThrough=0.1;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=24;
-					passThrough=0.1;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=24;
-					passThrough=0.1;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.1;
-				};
-			};
 		};
 	};
 
