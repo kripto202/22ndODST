@@ -27,6 +27,7 @@ class 22nd_odst_base: B_Soldier_F
 	author="kripto202";
 	uniformAccessories[]={};
 	nakedUniform="U_BasicBody";
+	backpack="OPTRE_ILCS_Rucksack_Black_Pouches";
 	vehicleClass="22nd_Infantry_class";
 	model="\OPTRE_UNSC_Units\ODST\uniform.p3d";
 	identityTypes[]=
@@ -48,13 +49,15 @@ class 22nd_odst_base: B_Soldier_F
 	};
 	weapons[]=
 	{
-		"OPTRE_MA5B",
+		"OPTRE_MA5B_AC",
+		"OPTRE_m6G",
 		"Throw",
 		"Put"
 	};
 	respawnWeapons[]=
 	{
-		"OPTRE_MA5B",
+		"OPTRE_MA5B_AC",
+		"OPTRE_M6G",
 		"Throw",
 		"Put"
 	};
@@ -233,12 +236,26 @@ class 22nd_odst_kripto202: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_kripto202_sniper",
-		"22nd_odst_vest_kripto202"
+		"22nd_odst_vest_kripto202",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_kripto202_sniper",
-		"22nd_odst_vest_kripto202"
+		"22nd_odst_vest_kripto202",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -265,12 +282,26 @@ class 22nd_odst_winter_kripto202: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_kripto202_sniper_winter",
-		"22nd_odst_vest_kripto202_winter"
+		"22nd_odst_vest_kripto202_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_kripto202_sniper_winter",
-		"22nd_odst_vest_winter_kripto202"
+		"22nd_odst_vest_winter_kripto202",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -301,12 +332,26 @@ class 22nd_odst_garrus: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_garrus_comms",
-		"22nd_odst_vest_garrus"
+		"22nd_odst_vest_garrus",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_garrus_comms",
-		"22nd_odst_vest_garrus"
+		"22nd_odst_vest_garrus",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -334,12 +379,26 @@ class 22nd_odst_winter_garrus: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_garrus_comms_winter",
-		"22nd_odst_vest_garrus_winter"
+		"22nd_odst_vest_garrus_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_garrus_comms_winter",
-		"22nd_odst_vest_garrus_winter"
+		"22nd_odst_vest_garrus_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -368,12 +427,26 @@ class 22nd_odst_darren: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_darren",
-		"22nd_odst_vest_darren"
+		"22nd_odst_vest_darren",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_darren",
-		"22nd_odst_vest_darren"
+		"22nd_odst_vest_darren",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -400,12 +473,26 @@ class 22nd_odst_winter_darren: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_darren_winter",
-		"22nd_odst_vest_darren_winter"
+		"22nd_odst_vest_darren_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_darren_winter",
-		"22nd_odst_vest_darren_winter"
+		"22nd_odst_vest_darren_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -432,12 +519,26 @@ class 22nd_odst_barkhorn: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_barkhorn",
-		"22nd_odst_vest_barkhorn"
+		"22nd_odst_vest_barkhorn",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_barkhorn",
-		"22nd_odst_vest_barkhorn"
+		"22nd_odst_vest_barkhorn",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -462,12 +563,26 @@ class 22nd_odst_winter_barkhorn: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_barkhorn_winter",
-		"22nd_odst_vest_barkhorn_winter"
+		"22nd_odst_vest_barkhorn_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_barkhorn_winter",
-		"22nd_odst_vest_barkhorn_winter"
+		"22nd_odst_vest_barkhorn_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -494,12 +609,26 @@ class 22nd_odst_litch: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_litch",
-		"22nd_odst_vest_litch"
+		"22nd_odst_vest_litch",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_litch",
-		"22nd_odst_vest_litch"
+		"22nd_odst_vest_litch",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -524,12 +653,26 @@ class 22nd_odst_winter_litch: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_litch_winter",
-		"22nd_odst_vest_litch_winter"
+		"22nd_odst_vest_litch_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_litch_winter",
-		"22nd_odst_vest_litch_winter"
+		"22nd_odst_vest_litch_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -556,12 +699,26 @@ class 22nd_odst_dobson: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_dobson",
-		"22nd_odst_vest_dobson"
+		"22nd_odst_vest_dobson",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_dobson",
-		"22nd_odst_vest_dobson"
+		"22nd_odst_vest_dobson",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -587,12 +744,26 @@ class 22nd_odst_winter_dobson: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_dobson_winter",
-		"22nd_odst_vest_dobson_winter"
+		"22nd_odst_vest_dobson_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_dobson_winter",
-		"22nd_odst_vest_dobson_winter"
+		"22nd_odst_vest_dobson_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -621,12 +792,26 @@ class 22nd_odst_ginger: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_ginger",
-		"22nd_odst_vest_ginger"
+		"22nd_odst_vest_ginger",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_ginger",
-		"22nd_odst_vest_ginger"
+		"22nd_odst_vest_ginger",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -652,12 +837,26 @@ class 22nd_odst_winter_ginger: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_ginger_winter",
-		"22nd_odst_vest_ginger_winter"
+		"22nd_odst_vest_ginger_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_ginger_winter",
-		"22nd_odst_vest_ginger_winter"
+		"22nd_odst_vest_ginger_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -684,12 +883,26 @@ class 22nd_odst_default: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default",
-		"22nd_odst_vest_default"
+		"22nd_odst_vest_default",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default",
-		"22nd_odst_vest_default"
+		"22nd_odst_vest_default",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -714,12 +927,26 @@ class 22nd_odst_winter_default: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default_winter",
-		"22nd_odst_vest_default_winter"
+		"22nd_odst_vest_default_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default_winter",
-		"22nd_odst_vest_default_winter"
+		"22nd_odst_vest_default_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -744,12 +971,26 @@ class 22nd_odst_blue_default: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default",
-		"22nd_odst_vest_default"
+		"22nd_odst_vest_default",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default",
-		"22nd_odst_vest_default"
+		"22nd_odst_vest_default",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -774,12 +1015,26 @@ class 22nd_odst_winter_blue_default: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default_winter",
-		"22nd_odst_vest_default_winter"
+		"22nd_odst_vest_default_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default_winter",
-		"22nd_odst_vest_default_winter"
+		"22nd_odst_vest_default_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -804,12 +1059,26 @@ class 22nd_odst_red_default: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default",
-		"22nd_odst_vest_default"
+		"22nd_odst_vest_default",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default",
-		"22nd_odst_vest_default"
+		"22nd_odst_vest_default",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -834,12 +1103,26 @@ class 22nd_odst_winter_red_default: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default_winter",
-		"22nd_odst_vest_default_winter"
+		"22nd_odst_vest_default_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_default_winter",
-		"22nd_odst_vest_default_winter"
+		"22nd_odst_vest_default_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -867,12 +1150,26 @@ class 22nd_odst_lopez: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_lopez",
-		"22nd_odst_vest_lopez"
+		"22nd_odst_vest_lopez",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_lopez",
-		"22nd_odst_vest_lopez"
+		"22nd_odst_vest_lopez",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -898,12 +1195,26 @@ class 22nd_odst_winter_lopez: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_lopez_winter",
-		"22nd_odst_vest_lopez_winter"
+		"22nd_odst_vest_lopez_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_lopez_winter",
-		"22nd_odst_vest_lopez_winter"
+		"22nd_odst_vest_lopez_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -931,12 +1242,26 @@ class 22nd_odst_yunker: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_yunker",
-		"22nd_odst_vest_yunker"
+		"22nd_odst_vest_yunker",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_yunker",
-		"22nd_odst_vest_yunker"
+		"22nd_odst_vest_yunker",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -962,12 +1287,26 @@ class 22nd_odst_winter_yunker: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_yunker_winter",
-		"22nd_odst_vest_ginger_winter"
+		"22nd_odst_vest_ginger_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_yunker_winter",
-		"22nd_odst_vest_yunker_winter"
+		"22nd_odst_vest_yunker_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -995,12 +1334,26 @@ class 22nd_odst_hazard: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_hazard",
-		"22nd_odst_vest_hazard"
+		"22nd_odst_vest_hazard",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_hazard",
-		"22nd_odst_vest_hazard"
+		"22nd_odst_vest_hazard",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -1026,12 +1379,26 @@ class 22nd_odst_winter_hazard: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_hazard_winter",
-		"22nd_odst_vest_hazard_winter"
+		"22nd_odst_vest_hazard_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_hazard_winter",
-		"22nd_odst_vest_hazard_winter"
+		"22nd_odst_vest_hazard_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -1059,12 +1426,26 @@ class 22nd_odst_drake: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_drake",
-		"22nd_odst_vest_drake"
+		"22nd_odst_vest_drake",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_drake",
-		"22nd_odst_vest_drake"
+		"22nd_odst_vest_drake",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -1090,12 +1471,26 @@ class 22nd_odst_winter_drake: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_drake_winter",
-		"22nd_odst_vest_drake_winter"
+		"22nd_odst_vest_drake_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_drake_winter",
-		"22nd_odst_vest_drake_winter"
+		"22nd_odst_vest_drake_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -1123,12 +1518,26 @@ class 22nd_odst_baker: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_baker",
-		"22nd_odst_vest_baker"
+		"22nd_odst_vest_baker",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_baker",
-		"22nd_odst_vest_baker"
+		"22nd_odst_vest_baker",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{
@@ -1154,12 +1563,26 @@ class 22nd_odst_winter_baker: 22nd_odst_base
 	linkedItems[] = 
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_baker_winter",
-		"22nd_odst_vest_baker_winter"
+		"22nd_odst_vest_baker_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	respawnLinkedItems[] =
 	{
 		"OPTRE_UNSC_ODST_Helmet_22nd_baker_winter",
-		"22nd_odst_vest_baker_winter"
+		"22nd_odst_vest_baker_winter",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"tf_anprc152",
+		"ItemGPS",
+		"ODST_helmet_goggles",
+		"OPTRE_NVG"
 	};
 	hiddenSelections[]=
 	{

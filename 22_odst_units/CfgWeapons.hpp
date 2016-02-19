@@ -44,6 +44,7 @@ class ItemCore;
 			uniformtype = "Neopren";
 			containerClass = "Supply50";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -63,6 +64,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -84,6 +86,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -103,6 +106,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -124,6 +128,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -143,6 +148,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -164,6 +170,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -183,6 +190,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -204,6 +212,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -223,6 +232,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -244,6 +254,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -263,6 +274,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -284,6 +296,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -303,6 +316,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -324,6 +338,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -343,6 +358,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -362,6 +378,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -381,6 +398,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -400,6 +418,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -419,6 +438,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -440,6 +460,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -459,6 +480,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -480,6 +502,7 @@ class ItemCore;
 			uniformtype = "Neopren";
 			containerClass = "Supply50";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -499,6 +522,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -520,6 +544,7 @@ class ItemCore;
 			uniformtype = "Neopren";
 			containerClass = "Supply50";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -539,6 +564,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -579,6 +605,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -600,6 +627,7 @@ class ItemCore;
 			uniformtype = "Neopren";
 			containerClass = "Supply50";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -619,6 +647,7 @@ class ItemCore;
 			containerClass = "Supply50";
 			uniformtype = "Neopren";
 			mass = 10;
+			armor = 500;
 			author = "kripto202";
 			modelSides[]={6};
 		};
@@ -655,7 +684,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -749,7 +778,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -827,7 +856,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -906,7 +935,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -982,7 +1011,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1060,7 +1089,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1136,7 +1165,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1214,7 +1243,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1290,7 +1319,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1368,7 +1397,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1444,7 +1473,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1524,7 +1553,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1604,7 +1633,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1685,7 +1714,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1763,7 +1792,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1844,7 +1873,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -1924,7 +1953,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2004,7 +2033,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2080,7 +2109,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2160,7 +2189,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2240,7 +2269,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2322,7 +2351,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2402,7 +2431,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2482,7 +2511,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2558,7 +2587,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2636,7 +2665,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
@@ -2713,7 +2742,7 @@ class ItemCore;
 		class ItemInfo: HeadgearItem
 		{
 			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
-			armor=10;
+			armor=100;
 			mass=20;
 			modelSides[]={6};
 			passThrough=0.1;
