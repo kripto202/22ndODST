@@ -504,6 +504,126 @@ class ItemCore;
 		};
 	};
 	
+//hazard\\
+
+	class 22nd_ODST_hazard_uniform: U_B_CombatUniform_mcam
+	{
+		scope=2;
+		scopeArsenal=2;
+		allowedSlots[] = {901};
+	displayName = "[22ndODST] D.Hazard";
+		picture = "\OPTRE_UNSC_Units\ODST\icons\odst_uniform_left.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformClass = "22nd_odst_hazard";
+			uniformtype = "Neopren";
+			containerClass = "Supply50";
+			mass = 10;
+			author = "kripto202";
+			modelSides[]={6};
+		};
+	};
+	
+	class 22nd_ODST_hazard_winter_uniform: U_B_CombatUniform_mcam
+	{
+		scope=2;
+		scopeArsenal=2;
+		allowedSlots[] = {901};
+	displayName = "(winter) [22ndODST] D.Hazard";
+		picture = "\OPTRE_UNSC_Units\ODST\icons\odst_uniform_left.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformClass = "22nd_odst_winter_hazard";
+			containerClass = "Supply50";
+			uniformtype = "Neopren";
+			mass = 10;
+			author = "kripto202";
+			modelSides[]={6};
+		};
+	};
+	
+//drake\\
+
+	class 22nd_ODST_drake_uniform: U_B_CombatUniform_mcam
+	{
+		scope=2;
+		scopeArsenal=2;
+		allowedSlots[] = {901};
+	displayName = "[22ndODST] B.Drake";
+		picture = "\OPTRE_UNSC_Units\ODST\icons\odst_uniform_left.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformClass = "22nd_odst_drake";
+			uniformtype = "Neopren";
+			containerClass = "Supply50";
+			mass = 10;
+			author = "kripto202";
+			modelSides[]={6};
+		};
+	};
+	
+	class 22nd_ODST_drake_winter_uniform: U_B_CombatUniform_mcam
+	{
+		scope=2;
+		scopeArsenal=2;
+		allowedSlots[] = {901};
+	displayName = "(winter) [22ndODST] B.Drake";
+		picture = "\OPTRE_UNSC_Units\ODST\icons\odst_uniform_left.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformClass = "22nd_odst_winter_drake";
+			containerClass = "Supply50";
+			uniformtype = "Neopren";
+			mass = 10;
+			author = "kripto202";
+			modelSides[]={6};
+		};
+	};
+	
+//baker\\
+
+	class 22nd_ODST_baker_uniform: U_B_CombatUniform_mcam
+	{
+		scope=2;
+		scopeArsenal=2;
+		allowedSlots[] = {901};
+	displayName = "[22ndODST] J.Baker";
+		picture = "\OPTRE_UNSC_Units\ODST\icons\odst_uniform_left.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformClass = "22nd_odst_baker";
+			uniformtype = "Neopren";
+			containerClass = "Supply50";
+			mass = 10;
+			author = "kripto202";
+			modelSides[]={6};
+		};
+	};
+	
+	class 22nd_ODST_baker_winter_uniform: U_B_CombatUniform_mcam
+	{
+		scope=2;
+		scopeArsenal=2;
+		allowedSlots[] = {901};
+	displayName = "(winter) [22ndODST] J.Baker";
+		picture = "\OPTRE_UNSC_Units\ODST\icons\odst_uniform_left.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformClass = "22nd_odst_winter_baker";
+			containerClass = "Supply50";
+			uniformtype = "Neopren";
+			mass = 10;
+			author = "kripto202";
+			modelSides[]={6};
+		};
+	};
+	
 //helmets\\
 	
 	class OPTRE_UNSC_ODST_Helmet_Base: H_HelmetB
@@ -618,7 +738,8 @@ class ItemCore;
 			"attach_communication",
 			"attach_flashlight",
 			"attach_laser",
-			"attach_mount"
+			"attach_mount",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -635,12 +756,13 @@ class ItemCore;
 			hiddenSelections[]=
 			{
 				"camo1",
-				"camo2",
-				"attach_cam",
-				"attach_communication",
-				"attach_flashlight",
-				"attach_laser",
-				"attach_mount"
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -694,7 +816,8 @@ class ItemCore;
 			"attach_communication",
 			"attach_flashlight",
 			"attach_laser",
-			"attach_mount"
+			"attach_mount",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -711,12 +834,13 @@ class ItemCore;
 			hiddenSelections[]=
 			{
 				"camo1",
-				"camo2",
-				"attach_cam",
-				"attach_communication",
-				"attach_flashlight",
-				"attach_laser",
-				"attach_mount"
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -770,10 +894,9 @@ class ItemCore;
 			"camo2",
 			"attach_cam",
 			"attach_flashlight",
-			"attach_rebreather",
-			"attach_rangefinder",
 			"attach_laser",
-			"attach_mount"
+			"attach_rangefinder",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -793,10 +916,9 @@ class ItemCore;
 				"camo2",
 				"attach_cam",
 				"attach_flashlight",
-				"attach_rebreather",
-				"attach_rangefinder",
 				"attach_laser",
-				"attach_mount"
+				"attach_rangefinder",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -848,10 +970,9 @@ class ItemCore;
 			"camo2",
 			"attach_cam",
 			"attach_flashlight",
-			"attach_rebreather",
-			"attach_rangefinder",
 			"attach_laser",
-			"attach_mount"
+			"attach_rangefinder",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -871,10 +992,9 @@ class ItemCore;
 				"camo2",
 				"attach_cam",
 				"attach_flashlight",
-				"attach_rebreather",
-				"attach_rangefinder",
 				"attach_laser",
-				"attach_mount"
+				"attach_rangefinder",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -928,7 +1048,6 @@ class ItemCore;
 			"camo2",
 			"attach_cam",
 			"attach_communication",
-			"attach_flashlight",
 			"attach_laser",
 			"attach_mount",
 			"attach_rangefinder"
@@ -951,10 +1070,9 @@ class ItemCore;
 				"camo2",
 				"attach_cam",
 				"attach_communication",
-				"attach_flashlight",
 				"attach_laser",
 				"attach_mount",
-				"attach_rangefinder",
+				"attach_rangefinder"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1025,12 +1143,12 @@ class ItemCore;
 			hiddenSelections[]=
 			{
 				"camo1",
-				"camo2",
-				"attach_cam",
-				"attach_communication",
-				"attach_laser",
-				"attach_mount",
-				"attach_rangefinder",
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_laser",
+			"attach_mount",
+			"attach_rangefinder"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1082,12 +1200,11 @@ class ItemCore;
 		{
 			"camo1",
 			"camo2",
-			"attach_cam",
 			"attach_communication",
 			"attach_flashlight",
-			"attach_rebreather",
 			"attach_mount",
-			"attach_rangefinder"
+			"attach_rangefinder",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1105,12 +1222,11 @@ class ItemCore;
 			{
 				"camo1",
 				"camo2",
-				"attach_cam",
 				"attach_communication",
 				"attach_flashlight",
-				"attach_rebreather",
 				"attach_mount",
-				"attach_rangefinder"
+				"attach_rangefinder",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1160,12 +1276,11 @@ class ItemCore;
 		{
 			"camo1",
 			"camo2",
-			"attach_cam",
 			"attach_communication",
 			"attach_flashlight",
-			"attach_rebreather",
 			"attach_mount",
-			"attach_rangefinder"
+			"attach_rangefinder",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1183,12 +1298,11 @@ class ItemCore;
 			{
 				"camo1",
 				"camo2",
-				"attach_cam",
 				"attach_communication",
 				"attach_flashlight",
-				"attach_rebreather",
 				"attach_mount",
-				"attach_rangefinder"
+				"attach_rangefinder",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1240,12 +1354,10 @@ class ItemCore;
 		{
 			"camo1",
 			"camo2",
-			"attach_cam",
 			"attach_communication",
 			"attach_laser",
 			"attach_mount",
 			"attach_rangefinder",
-			"attach_flashlight",
 			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
@@ -1264,12 +1376,10 @@ class ItemCore;
 			{
 				"camo1",
 				"camo2",
-				"attach_cam",
 				"attach_communication",
 				"attach_laser",
 				"attach_mount",
 				"attach_rangefinder",
-				"attach_flashlight",
 				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
@@ -1320,12 +1430,10 @@ class ItemCore;
 		{
 			"camo1",
 			"camo2",
-			"attach_cam",
 			"attach_communication",
 			"attach_laser",
 			"attach_mount",
 			"attach_rangefinder",
-			"attach_flashlight",
 			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
@@ -1344,12 +1452,10 @@ class ItemCore;
 			{
 				"camo1",
 				"camo2",
-				"attach_cam",
 				"attach_communication",
 				"attach_laser",
 				"attach_mount",
 				"attach_rangefinder",
-				"attach_flashlight",
 				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
@@ -1405,9 +1511,10 @@ class ItemCore;
 			"attach_cam",
 			"attach_communication",
 			"attach_flashlight",
-			"attach_rebreather",
 			"attach_laser",
-			"attach_mount"
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1428,9 +1535,10 @@ class ItemCore;
 				"attach_cam",
 				"attach_communication",
 				"attach_flashlight",
-				"attach_rebreather",
 				"attach_laser",
-				"attach_mount"
+				"attach_mount",
+				"attach_rangefinder",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1483,9 +1591,10 @@ class ItemCore;
 			"attach_cam",
 			"attach_communication",
 			"attach_flashlight",
-			"attach_rebreather",
 			"attach_laser",
-			"attach_mount"
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1506,9 +1615,10 @@ class ItemCore;
 				"attach_cam",
 				"attach_communication",
 				"attach_flashlight",
-				"attach_rebreather",
 				"attach_laser",
-				"attach_mount"
+				"attach_mount",
+				"attach_rangefinder",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1560,11 +1670,12 @@ class ItemCore;
 		{
 			"camo1",
 			"camo2",
-			"attach_mount",
-			"attach_rangefinder",
-			"attach_rebreather",
+			"attach_cam",
+			"attach_communication",
 			"attach_flashlight",
-			"attach_cam"
+			"attach_laser",
+			"attach_mount",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1582,11 +1693,12 @@ class ItemCore;
 			{
 				"camo1",
 				"camo2",
-				"attach_mount",
-				"attach_rangefinder",
-				"attach_rebreather",
+				"attach_cam",
+				"attach_communication",
 				"attach_flashlight",
-				"attach_cam"
+				"attach_laser",
+				"attach_mount",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1637,9 +1749,10 @@ class ItemCore;
 			"camo1",
 			"camo2",
 			"attach_cam",
+			"attach_communication",
 			"attach_flashlight",
+			"attach_laser",
 			"attach_mount",
-			"attach_rangefinder",
 			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
@@ -1659,9 +1772,10 @@ class ItemCore;
 				"camo1",
 				"camo2",
 				"attach_cam",
-				"attach_flaslight",
+				"attach_communication",
+				"attach_flashlight",
+				"attach_laser",
 				"attach_mount",
-				"attach_rangefinder",
 				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
@@ -1737,14 +1851,14 @@ class ItemCore;
 			hiddenSelections[]=
 			{
 				"camo1",
-				"camo2",
-				"attach_cam",
-				"attach_communication",
-				"attach_flashlight",
-				"attach_laser",
-				"attach_mount",
-				"attach_rangefinder",
-				"attach_rebreather"
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1784,6 +1898,86 @@ class ItemCore;
 		};
 	};
 	
+	class OPTRE_UNSC_ODST_Helmet_22nd_default_winter: OPTRE_UNSC_ODST_Helmet
+	{
+		author="kripto202";
+		picture="\OPTRE_UNSC_Units\ODST\icons\odst_helmet.paa";
+		displayName="(winter) [22ndODST] Default";
+		model="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_default_l0_winter_helmet.paa",
+			"22_odst_units\data\helmet\odst_default_l0_winter_helmet.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+			armor=10;
+			mass=20;
+			modelSides[]={6};
+			passThrough=0.1;
+			hiddenSelections[]=
+			{
+				"camo1",
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_default_l0_winter_helmet.paa",
+				"22_odst_units\data\helmet\odst_default_l0_winter_helmet.paa"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_default_winter_dp: OPTRE_UNSC_ODST_Helmet_22nd_default_winter
+	{
+		author="kripto202";
+		scopeArsenal=1;
+		scopeCurator=1;
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_default_l0_winter_helmet.paa",
+			"optre_vehicles\pelican\data\glass_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+			"optre_vehicles\pelican\data\reflective_glass.rvmat"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_default_l0_winter_helmet.paa",
+				"optre_vehicles\pelican\data\glass_ca.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+				"optre_vehicles\pelican\data\reflective_glass.rvmat"
+			};
+		};
+	};
+	
 //lopez\\
 
 	class OPTRE_UNSC_ODST_Helmet_22nd_lopez: OPTRE_UNSC_ODST_Helmet
@@ -1797,10 +1991,10 @@ class ItemCore;
 			"camo1",
 			"camo2",
 			"attach_communication",
-			"attach_rebreather",
 			"attach_laser",
 			"attach_mount",
-			"attach_rangefinder"
+			"attach_rangefinder",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1819,10 +2013,10 @@ class ItemCore;
 				"camo1",
 				"camo2",
 				"attach_communication",
-				"attach_rebreather",
 				"attach_laser",
 				"attach_mount",
-				"attach_rangefinder"
+				"attach_rangefinder",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1873,10 +2067,10 @@ class ItemCore;
 			"camo1",
 			"camo2",
 			"attach_communication",
-			"attach_rebreather",
 			"attach_laser",
 			"attach_mount",
-			"attach_rangefinder"
+			"attach_rangefinder",
+			"attach_rebreather"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -1895,10 +2089,10 @@ class ItemCore;
 				"camo1",
 				"camo2",
 				"attach_communication",
-				"attach_rebreather",
 				"attach_laser",
 				"attach_mount",
-				"attach_rangefinder"
+				"attach_rangefinder",
+				"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -1973,14 +2167,14 @@ class ItemCore;
 			hiddenSelections[]=
 			{
 				"camo1",
-				"camo2",
-				"attach_cam",
-				"attach_communication",
-				"attach_flashlight",
-				"attach_laser",
-				"attach_mount",
-				"attach_rangefinder",
-				"attach_rebreather"
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -2032,6 +2226,7 @@ class ItemCore;
 			"camo2",
 			"attach_cam",
 			"attach_communication",
+			"attach_flashlight",
 			"attach_laser",
 			"attach_mount",
 			"attach_rangefinder",
@@ -2052,13 +2247,14 @@ class ItemCore;
 			hiddenSelections[]=
 			{
 				"camo1",
-				"camo2",
-				"attach_cam",
-				"attach_communication",
-				"attach_laser",
-				"attach_mount",
-				"attach_rangefinder",
-				"attach_rebreather"
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
 			};
 			hiddenSelectionsTextures[]=
 			{
@@ -2088,6 +2284,478 @@ class ItemCore;
 			hiddenSelectionsTextures[]=
 			{
 				"22_odst_units\data\helmet\odst_yunker_l0_winter_helmet.paa",
+				"optre_vehicles\pelican\data\glass_ca.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+				"optre_vehicles\pelican\data\reflective_glass.rvmat"
+			};
+		};
+	};
+	
+//hazard\\
+
+	class OPTRE_UNSC_ODST_Helmet_22nd_hazard: OPTRE_UNSC_ODST_Helmet
+	{
+		author="kripto202";
+		picture="\OPTRE_UNSC_Units\ODST\icons\odst_helmet_med.paa";
+		displayName="[22ndODST] D.Hazard";
+		model="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_hazard_l0_helmet.paa",
+			"22_odst_units\data\helmet\odst_hazard_l0_helmet.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+			armor=10;
+			mass=20;
+			modelSides[]={6};
+			passThrough=0.1;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_cam",
+				"attach_communication",
+				"attach_flashlight",
+				"attach_laser",
+				"attach_mount",
+				"attach_rangefinder",
+				"attach_rebreather"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_hazard_l0_helmet.paa",
+				"22_odst_units\data\helmet\odst_hazard_l0_helmet.paa"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_hazard_dp: OPTRE_UNSC_ODST_Helmet_22nd_hazard
+	{
+		author="kripto202";
+		scopeArsenal=1;
+		scopeCurator=1;
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_hazard_l0_helmet.paa",
+			"optre_vehicles\pelican\data\glass_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+			"optre_vehicles\pelican\data\reflective_glass.rvmat"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_hazard_l0_helmet.paa",
+				"optre_vehicles\pelican\data\glass_ca.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+				"optre_vehicles\pelican\data\reflective_glass.rvmat"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_hazard_winter: OPTRE_UNSC_ODST_Helmet
+	{
+		author="kripto202";
+		picture="\OPTRE_UNSC_Units\ODST\icons\odst_helmet.paa";
+		displayName="(winter) [22ndODST] D.Hazard";
+		model="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_hazard_l0_winter_helmet.paa",
+			"22_odst_units\data\helmet\odst_hazard_l0_winter_helmet.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+			armor=10;
+			mass=20;
+			modelSides[]={6};
+			passThrough=0.1;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_cam",
+				"attach_communication",
+				"attach_flashlight",
+				"attach_laser",
+				"attach_mount",
+				"attach_rangefinder",
+				"attach_rebreather"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_hazard_l0_winter_helmet.paa",
+				"22_odst_units\data\helmet\odst_hazard_l0_winter_helmet.paa"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_hazard_winter_dp: OPTRE_UNSC_ODST_Helmet_22nd_hazard_winter
+	{
+		author="kripto202";
+		scopeArsenal=1;
+		scopeCurator=1;
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_hazard_l0_winter_helmet.paa",
+			"optre_vehicles\pelican\data\glass_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+			"optre_vehicles\pelican\data\reflective_glass.rvmat"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_hazard_l0_winter_helmet.paa",
+				"optre_vehicles\pelican\data\glass_ca.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+				"optre_vehicles\pelican\data\reflective_glass.rvmat"
+			};
+		};
+	};
+	
+//drake\\
+
+	class OPTRE_UNSC_ODST_Helmet_22nd_drake: OPTRE_UNSC_ODST_Helmet
+	{
+		author="kripto202";
+		picture="\OPTRE_UNSC_Units\ODST\icons\odst_helmet_med.paa";
+		displayName="[22ndODST] B.Drake";
+		model="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_drake_l0_helmet.paa",
+			"22_odst_units\data\helmet\odst_drake_l0_helmet.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+			armor=10;
+			mass=20;
+			modelSides[]={6};
+			passThrough=0.1;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_communication",
+				"attach_flashlight",
+				"attach_mount",
+				"attach_rangefinder",
+				"attach_rebreather"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_drake_l0_helmet.paa",
+				"22_odst_units\data\helmet\odst_drake_l0_helmet.paa"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_drake_dp: OPTRE_UNSC_ODST_Helmet_22nd_drake
+	{
+		author="kripto202";
+		scopeArsenal=1;
+		scopeCurator=1;
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_drake_l0_helmet.paa",
+			"optre_vehicles\pelican\data\glass_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+			"optre_vehicles\pelican\data\reflective_glass.rvmat"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_drake_l0_helmet.paa",
+				"optre_vehicles\pelican\data\glass_ca.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+				"optre_vehicles\pelican\data\reflective_glass.rvmat"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_drake_winter: OPTRE_UNSC_ODST_Helmet
+	{
+		author="kripto202";
+		picture="\OPTRE_UNSC_Units\ODST\icons\odst_helmet.paa";
+		displayName="(winter) [22ndODST] B.Drake";
+		model="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_drake_l0_winter_helmet.paa",
+			"22_odst_units\data\helmet\odst_drake_l0_winter_helmet.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+			armor=10;
+			mass=20;
+			modelSides[]={6};
+			passThrough=0.1;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_communication",
+				"attach_flashlight",
+				"attach_mount",
+				"attach_rangefinder",
+				"attach_rebreather"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_drake_l0_winter_helmet.paa",
+				"22_odst_units\data\helmet\odst_drake_l0_winter_helmet.paa"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_drake_winter_dp: OPTRE_UNSC_ODST_Helmet_22nd_drake_winter
+	{
+		author="kripto202";
+		scopeArsenal=1;
+		scopeCurator=1;
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_drake_l0_winter_helmet.paa",
+			"optre_vehicles\pelican\data\glass_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+			"optre_vehicles\pelican\data\reflective_glass.rvmat"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_drake_l0_winter_helmet.paa",
+				"optre_vehicles\pelican\data\glass_ca.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+				"optre_vehicles\pelican\data\reflective_glass.rvmat"
+			};
+		};
+	};
+	
+//baker\\
+
+	class OPTRE_UNSC_ODST_Helmet_22nd_baker: OPTRE_UNSC_ODST_Helmet
+	{
+		author="kripto202";
+		picture="\OPTRE_UNSC_Units\ODST\icons\odst_helmet_med.paa";
+		displayName="[22ndODST] J.Baker";
+		model="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_mount",
+			"attach_rangefinder",
+			"attach_rebreather"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_baker_l0_helmet.paa",
+			"22_odst_units\data\helmet\odst_baker_l0_helmet.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+			armor=10;
+			mass=20;
+			modelSides[]={6};
+			passThrough=0.1;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_communication",
+				"attach_flashlight",
+				"attach_mount",
+				"attach_rangefinder",
+				"attach_rebreather"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_baker_l0_helmet.paa",
+				"22_odst_units\data\helmet\odst_baker_l0_helmet.paa"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_baker_dp: OPTRE_UNSC_ODST_Helmet_22nd_baker
+	{
+		author="kripto202";
+		scopeArsenal=1;
+		scopeCurator=1;
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_baker_l0_helmet.paa",
+			"optre_vehicles\pelican\data\glass_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+			"optre_vehicles\pelican\data\reflective_glass.rvmat"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_baker_l0_helmet.paa",
+				"optre_vehicles\pelican\data\glass_ca.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+				"optre_vehicles\pelican\data\reflective_glass.rvmat"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_baker_winter: OPTRE_UNSC_ODST_Helmet
+	{
+		author="kripto202";
+		picture="\OPTRE_UNSC_Units\ODST\icons\odst_helmet.paa";
+		displayName="(winter) [22ndODST] J.Baker";
+		model="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rebreather"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_baker_l0_winter_helmet.paa",
+			"22_odst_units\data\helmet\odst_baker_l0_winter_helmet.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="\OPTRE_UNSC_Units\ODST\helmet.p3d";
+			armor=10;
+			mass=20;
+			modelSides[]={6};
+			passThrough=0.1;
+			hiddenSelections[]=
+			{
+				"camo1",
+			"camo2",
+			"attach_cam",
+			"attach_communication",
+			"attach_flashlight",
+			"attach_laser",
+			"attach_mount",
+			"attach_rebreather"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_baker_l0_winter_helmet.paa",
+				"22_odst_units\data\helmet\odst_baker_l0_winter_helmet.paa"
+			};
+		};
+	};
+	
+	class OPTRE_UNSC_ODST_Helmet_22nd_baker_winter_dp: OPTRE_UNSC_ODST_Helmet_22nd_baker_winter
+	{
+		author="kripto202";
+		scopeArsenal=1;
+		scopeCurator=1;
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\helmet\odst_baker_l0_winter_helmet.paa",
+			"optre_vehicles\pelican\data\glass_ca.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"OPTRE_UNSC_Units\ODST\data\helmet.rvmat",
+			"optre_vehicles\pelican\data\reflective_glass.rvmat"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\helmet\odst_baker_l0_winter_helmet.paa",
 				"optre_vehicles\pelican\data\glass_ca.paa"
 			};
 			hiddenSelectionsMaterials[]=
@@ -2766,6 +3434,204 @@ class 22nd_odst_vest_yunker: OPTRE_UNSC_ODST_Vest_Base
 			hiddenSelectionsTextures[]=
 			{
 				"22_odst_units\data\vest\odst_yunker_l0_winter_vest.paa",
+				""
+			};
+		};
+	};
+	
+///hazard\\\
+
+class 22nd_odst_vest_hazard: OPTRE_UNSC_ODST_Vest_Base
+	{
+		scope=2;
+		author="kripto202";
+		displayName="[22ndODST] D.Hazard";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_nade"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\vest\odst_hazard_l0_vest.paa",
+			""
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_nade"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\vest\odst_hazard_l0_vest.paa",
+				""
+			};
+		};
+	};
+	
+	class 22nd_odst_vest_hazard_winter: OPTRE_UNSC_ODST_Vest_Base
+	{
+		scope=2;
+		author="kripto202";
+		displayName="(winter) [22ndODST] D.Hazard";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_nade"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\vest\odst_hazard_l0_winter_vest.paa",
+			""
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_nade"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\vest\odst_hazard_l0_winter_vest.paa",
+				""
+			};
+		};
+	};
+	
+///drake\\\
+
+class 22nd_odst_vest_drake: OPTRE_UNSC_ODST_Vest_Base
+	{
+		scope=2;
+		author="kripto202";
+		displayName="[22ndODST] B.Drake";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_nade"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\vest\odst_drake_l0_vest.paa",
+			""
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_nade"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\vest\odst_drake_l0_vest.paa",
+				""
+			};
+		};
+	};
+	
+	class 22nd_odst_vest_drake_winter: OPTRE_UNSC_ODST_Vest_Base
+	{
+		scope=2;
+		author="kripto202";
+		displayName="(winter) [22ndODST] B.Drake";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_nade"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\vest\odst_drake_l0_winter_vest.paa",
+			""
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_nade"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\vest\odst_drake_l0_winter_vest.paa",
+				""
+			};
+		};
+	};
+	
+///baker\\\
+
+class 22nd_odst_vest_baker: OPTRE_UNSC_ODST_Vest_Base
+	{
+		scope=2;
+		author="kripto202";
+		displayName="[22ndODST] J.Baker";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_nade"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\vest\odst_baker_l0_vest.paa",
+			""
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_nade"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\vest\odst_baker_l0_vest.paa",
+				""
+			};
+		};
+	};
+	
+	class 22nd_odst_vest_baker_winter: OPTRE_UNSC_ODST_Vest_Base
+	{
+		scope=2;
+		author="kripto202";
+		displayName="(winter) [22ndODST] J.Baker";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"attach_nade"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"22_odst_units\data\vest\odst_baker_l0_winter_vest.paa",
+			""
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"attach_nade"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"22_odst_units\data\vest\odst_baker_l0_winter_vest.paa",
 				""
 			};
 		};

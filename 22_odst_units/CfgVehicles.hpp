@@ -980,3 +980,195 @@ class 22nd_odst_winter_yunker: 22nd_odst_base
 		"22_odst_units\data\uniform\odst_yunker_l0_winter_armor.paa"
 	};
 };
+
+///hazard\\\
+
+class 22nd_odst_hazard: 22nd_odst_base
+{
+	scope=2;
+	scopeCurator=0;
+	scopeArsenal = 2;
+	displayName="[ODST] D.Hazard";
+	author="kripto202";
+	uniformClass="22nd_ODST_hazard_uniform";
+	model="\OPTRE_UNSC_Units\ODST\uniform.p3d";
+	linkedItems[] = 
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_hazard",
+		"22nd_odst_vest_hazard"
+	};
+	respawnLinkedItems[] =
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_hazard",
+		"22nd_odst_vest_hazard"
+	};
+	hiddenSelections[]=
+	{
+		"camo1",
+		"insignia",
+		"clan"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"22_odst_units\data\uniform\odst_hazard_l0_armor.paa"
+	};
+};
+
+class 22nd_odst_winter_hazard: 22nd_odst_base
+{
+	scope=2;
+	scopeCurator=0;
+	scopeArsenal = 2;
+	displayName="(winter) [ODST] D.Hazard";
+	author="kripto202";
+	uniformClass="22nd_ODST_hazard_winter_uniform";
+	model="\OPTRE_UNSC_Units\ODST\uniform.p3d";
+	linkedItems[] = 
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_hazard_winter",
+		"22nd_odst_vest_hazard_winter"
+	};
+	respawnLinkedItems[] =
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_hazard_winter",
+		"22nd_odst_vest_hazard_winter"
+	};
+	hiddenSelections[]=
+	{
+		"camo1",
+		"insignia",
+		"clan"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"22_odst_units\data\uniform\odst_hazard_l0_winter_armor.paa"
+	};
+};
+
+///drake\\\
+
+class 22nd_odst_drake: 22nd_odst_base
+{
+	scope=2;
+	scopeCurator=0;
+	scopeArsenal = 2;
+	displayName="[ODST] B.Drake";
+	author="kripto202";
+	uniformClass="22nd_ODST_drake_uniform";
+	model="\OPTRE_UNSC_Units\ODST\uniform.p3d";
+	linkedItems[] = 
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_drake",
+		"22nd_odst_vest_drake"
+	};
+	respawnLinkedItems[] =
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_drake",
+		"22nd_odst_vest_drake"
+	};
+	hiddenSelections[]=
+	{
+		"camo1",
+		"insignia",
+		"clan"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"22_odst_units\data\uniform\odst_drake_l0_armor.paa"
+	};
+};
+
+class 22nd_odst_winter_drake: 22nd_odst_base
+{
+	scope=2;
+	scopeCurator=0;
+	scopeArsenal = 2;
+	displayName="(winter) [ODST] B.Drake";
+	author="kripto202";
+	uniformClass="22nd_ODST_drake_winter_uniform";
+	model="\OPTRE_UNSC_Units\ODST\uniform.p3d";
+	linkedItems[] = 
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_drake_winter",
+		"22nd_odst_vest_drake_winter"
+	};
+	respawnLinkedItems[] =
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_drake_winter",
+		"22nd_odst_vest_drake_winter"
+	};
+	hiddenSelections[]=
+	{
+		"camo1",
+		"insignia",
+		"clan"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"22_odst_units\data\uniform\odst_drake_l0_winter_armor.paa"
+	};
+};
+
+///baker\\\
+
+class 22nd_odst_baker: 22nd_odst_base
+{
+	scope=2;
+	scopeCurator=0;
+	scopeArsenal = 2;
+	displayName="[ODST] J.Baker";
+	author="kripto202";
+	uniformClass="22nd_ODST_baker_uniform";
+	model="\OPTRE_UNSC_Units\ODST\uniform.p3d";
+	linkedItems[] = 
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_baker",
+		"22nd_odst_vest_baker"
+	};
+	respawnLinkedItems[] =
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_baker",
+		"22nd_odst_vest_baker"
+	};
+	hiddenSelections[]=
+	{
+		"camo1",
+		"insignia",
+		"clan"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"22_odst_units\data\uniform\odst_baker_l0_armor.paa"
+	};
+};
+
+class 22nd_odst_winter_baker: 22nd_odst_base
+{
+	scope=2;
+	scopeCurator=0;
+	scopeArsenal = 2;
+	displayName="(winter) [ODST] J.Baker";
+	author="kripto202";
+	uniformClass="22nd_ODST_baker_winter_uniform";
+	model="\OPTRE_UNSC_Units\ODST\uniform.p3d";
+	linkedItems[] = 
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_baker_winter",
+		"22nd_odst_vest_baker_winter"
+	};
+	respawnLinkedItems[] =
+	{
+		"OPTRE_UNSC_ODST_Helmet_22nd_baker_winter",
+		"22nd_odst_vest_baker_winter"
+	};
+	hiddenSelections[]=
+	{
+		"camo1",
+		"insignia",
+		"clan"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"22_odst_units\data\uniform\odst_baker_l0_winter_armor.paa"
+	};
+};
